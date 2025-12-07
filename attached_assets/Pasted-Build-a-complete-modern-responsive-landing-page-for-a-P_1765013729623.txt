@@ -1,0 +1,135 @@
+Build a complete, modern, responsive landing page for a Payroll SaaS platform called PayFlow Africa.
+Use Next.js + TailwindCSS. The landing page should be clean, elegant, dark-themed and visually appealing, with smooth animations and modern UI/UX patterns.
+
+🔥 Landing Page Goals
+
+The website should clearly communicate:
+
+Payroll automation for African businesses
+
+Role-based dashboards (Company, HR, Employee)
+
+Automated payslips
+
+Compliance
+
+Employee records
+
+Subscription billing
+
+14-day free trial
+
+🎨 Design Style
+
+Dark theme with gradient accents
+
+High-quality hero section with illustrations or generated SVG shapes
+
+Modern layout with shadows, glassmorphism, glowing borders
+
+Smooth Framer Motion animations
+
+Subtle hover animations
+
+Crisp modern typography
+
+🧩 Sections to Include
+
+Hero Section
+
+Big headline + subtitle
+
+CTA buttons: “Start Free Trial” and “Book Demo”
+
+Animated background (particles, gradient blobs, or flowing lines)
+
+Hero illustration representing payroll automation, finance, HR, etc.
+
+Feature Highlights
+Show features in animated cards:
+
+Automated Payroll
+
+HR Dashboard
+
+Employee Dashboard
+
+Payslip Generation
+
+Bulk Employee Upload (CSV)
+
+Departments & Permissions
+
+Compliance & Security
+
+Flutterwave billing + trial
+
+How It Works (3 steps)
+
+Step 1: Create Company Account
+
+Step 2: Add Employees or Upload CSV
+
+Step 3: Run Payroll & Generate Payslips
+
+Use icons + animations.
+
+Visual Dashboard Previews
+
+Show mock dashboard images/cards for Company, HR, Employee
+
+Add slight 3D tilt animation on hover
+
+Pricing Section
+
+Monthly / Yearly toggle
+
+Plans: Basic, Growth, Enterprise
+
+Free 14-day trial messaging
+
+Testimonials (optional)
+
+Simple card design
+
+Fade-in animations
+
+FAQ Section
+
+Accordions with smooth transitions
+
+Footer
+
+Logo, links, copyright
+
+Social icons
+
+🎬 Animation Requirements
+
+Use Framer Motion for:
+
+Fade-in elements
+
+Slide transitions
+
+Hover scale animations
+
+Subtle floating effects
+
+Use TailwindCSS for styling.
+
+⚙️ Technical Requirements
+
+Should be a standalone landing page under / route
+
+Fully responsive (mobile, tablet, desktop)
+
+Use reusable React components when possible
+
+Should be production-ready
+
+No backend logic required yet
+
+🤝 Branding
+
+Use the name “PayFlow Africa” throughout the landing page.

@@ -1,0 +1,254 @@
+Build the dashboard UI for a Payroll SaaS called PayFlow Africa.
+Use Next.js + TailwindCSS + Framer Motion.
+The application has three roles with different dashboards:
+
+Company Admin
+
+HR Manager
+
+Employee
+
+Create a modern dark-themed dashboard layout with the following characteristics:
+
+🎨 GLOBAL STYLE
+
+Dark theme
+
+Gradient accents
+
+Glassmorphism panels
+
+Minimal and clean
+
+Smooth animations (Framer Motion)
+
+Responsive (mobile / tablet / desktop)
+
+Fixed sidebar navigation + top bar layout
+
+Reusable components
+
+🧩 GLOBAL COMPONENTS TO GENERATE
+
+Build reusable components in /components:
+
+1. Sidebar Navigation
+
+Different menu items for each role
+
+Icons for: Dashboard, Employees, Payroll, Payslips, Departments, Billing, Settings
+
+Active state highlight
+
+Animated slide-in
+
+2. Top Navbar
+
+Company logo
+
+User profile dropdown
+
+Notifications icon
+
+Dark/glass UI
+
+3. Dashboard Cards
+
+Animated stat cards
+
+Icons for salary, employees, payroll runs
+
+Hover motion effects
+
+4. Data Table Component
+
+For employees, payroll runs, payslips
+
+Search bar
+
+Filters
+
+Pagination
+
+Download/export buttons
+
+5. Modal Component
+
+For adding employees, editing departments
+
+🧵 LAYOUT
+
+Create a layout component:
+/app/(dashboard)/layout.tsx
+
+Sidebar on left
+
+Top navbar
+
+Content area
+
+Use Tailwind grid + flex.
+
+🧩 1. COMPANY ADMIN DASHBOARD
+
+Route: /company-dashboard
+
+Include:
+
+Overview stats (employees, payroll runs, departments, active subscription)
+
+Recent payroll activity table
+
+Shortcuts: Add HR user, Add Employee
+
+Charts: Monthly payroll cost
+
+Sections they can access:
+
+Employees
+
+HR team
+
+Departments
+
+Payroll runs
+
+Payslips
+
+Reports
+
+Billing / Subscription
+
+Settings
+
+Create UI pages for each:
+
+/company-dashboard/employees
+/company-dashboard/hr
+/company-dashboard/departments
+/company-dashboard/payroll
+/company-dashboard/payslips
+/company-dashboard/reports
+/company-dashboard/billing
+/company-dashboard/settings
+
+🧩 2. HR MANAGER DASHBOARD
+
+Route: /hr-dashboard
+
+Dashboard homepage UI:
+
+Stats: total employees, pending payroll, payslips generated
+
+Quick actions: Run payroll, Upload CSV
+
+Table: employee list
+
+Table: latest payslips
+
+Pages they can access:
+
+/hr-dashboard/employees
+/hr-dashboard/payroll
+/hr-dashboard/payslips
+/hr-dashboard/csv-upload
+/hr-dashboard/settings
+
+🧩 3. EMPLOYEE DASHBOARD
+
+Route: /employee-dashboard
+
+Home page includes:
+
+Welcome message
+
+Animated salary overview card
+
+Latest payslip preview
+
+Download payslip button
+
+Employment info section
+
+Pages:
+
+/employee-dashboard/payslips
+/employee-dashboard/profile
+/settings
+
+🧩 FEATURE-SPECIFIC PAGE UIs TO GENERATE
+Employees Page
+
+Table of employees
+
+Search + filters
+
+Add employee modal
+
+Import CSV button
+
+Actions dropdown
+
+Payroll Run Page
+
+List of payroll runs
+
+Button: "Run Payroll"
+
+Status tags (Completed, Pending)
+
+View payroll summary modal
+
+Payslips Page
+
+Table of payslips
+
+Filter by month
+
+Download PDF button
+
+Departments Page
+
+Department list
+
+Add/Edit department modal
+
+Employee count per department
+
+Subscription Page
+
+Show plan, trial status
+
+Billing card details
+
+Upgrade / Cancel buttons
+
+🎬 ANIMATION REQUIREMENTS
+
+Use Framer Motion for:
+
+Page transitions
+
+Card fade & slide animations
+
+Sidebar expand animation
+
+Button hover micro-interactions
+
+Modal scale-in transition
+
+⚙️ TECHNICAL REQUIREMENTS
+
+Generate UI only (no backend logic)
+
+Use Tailwind for all styles
+
+Keep code clean & modular
+
+Use TypeScript
+
+Use icons from Lucide
+
+🌍 BRANDING
+
+Use the name: PayFlow Africa
